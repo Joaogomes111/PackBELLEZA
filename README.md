@@ -2,7 +2,7 @@
 
 Landing page estática em espanhol, refeita com a copy e as imagens originais da oferta.
 
-Os seis packs têm carrosséis independentes e infinitos, sem botão de pausa. O banner rosa usa as três artes e a composição da primeira versão, com layout responsivo. A página inclui seções de publicações, legendas, Stories, carrosséis, destaques, bônus, personalização, feedback e oferta, com botões de CTA intermediários. A lista da oferta aparece em tamanho legível ao lado do cartão de compra, que permanece compacto. A seção “Quiénes somos” foi removida.
+Os seis packs têm carrosséis independentes e infinitos, sem botão de pausa. O banner rosa usa as três artes e a composição da primeira versão, com layout responsivo. No mobile, o destaque das 400 publicações aparece logo abaixo do cabeçalho e as fotos do banner vêm depois do título. O aviso do Canva aparece após os seis packs. A página inclui seções de publicações, legendas, Stories, carrosséis, destaques, bônus, personalização, feedback e oferta, com botões de CTA intermediários. A lista da oferta aparece em tamanho legível ao lado do cartão de compra, que permanece compacto. A seção “Quiénes somos” foi removida.
 
 ## Prévia local
 
