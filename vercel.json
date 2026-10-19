@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/servicios-de-belleza", "destination": "/" },
+    { "source": "/servicios-de-belleza/", "destination": "/" },
+    { "source": "/servicios-de-belleza/styles.css", "destination": "/styles.css" },
+    { "source": "/servicios-de-belleza/script.js", "destination": "/script.js" },
+    { "source": "/servicios-de-belleza/assets/:path*", "destination": "/assets/:path*" }
+  ]
+}
