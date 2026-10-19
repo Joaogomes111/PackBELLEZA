@@ -8,6 +8,7 @@
   --pink-soft: #fae4ea;
   --gold: #c4a46e;
   --green: #58d369;
+  --green-ink: #123b1e;
   --line: rgba(51, 39, 43, .15);
   --serif: 'Playfair Display', Georgia, serif;
   --sans: 'DM Sans', Arial, sans-serif;
@@ -49,12 +50,10 @@ p { color: var(--muted); }
 .desktop-nav a:hover { color: var(--pink); }
 .button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; min-height: 58px; padding: 16px 27px; border: 0; border-radius: 8px; font-size: 14px; font-weight: 800; letter-spacing: .03em; line-height: 1.15; text-align: center; text-decoration: none; transition: transform .2s, box-shadow .2s, background .2s; }
 .button:hover { transform: translateY(-3px); }
-.button-primary { background: var(--pink); box-shadow: 0 10px 26px rgba(213,59,96,.28); color: #fff; animation: cta-pulse 2.4s ease-in-out infinite; }
-.button-primary:hover { background: var(--pink-dark); box-shadow: 0 14px 30px rgba(213,59,96,.36); }
-.button-outline { border: 1px solid #bd9da5; background: transparent; color: var(--ink); }
-.button-outline:hover { border-color: var(--pink); color: var(--pink); }
+.button-primary { background: var(--green); box-shadow: 0 10px 26px rgba(36,126,54,.28); color: var(--green-ink); animation: cta-pulse 2.4s ease-in-out infinite; }
+.button-primary:hover { background: #45c858; box-shadow: 0 14px 30px rgba(36,126,54,.36); }
 .button-small { min-height: 42px; padding: 11px 19px; font-size: 12px; }
-@keyframes cta-pulse { 0%, 100% { box-shadow: 0 9px 22px rgba(213,59,96,.25), 0 0 0 0 rgba(213,59,96,.22); transform: scale(1); } 50% { box-shadow: 0 12px 28px rgba(213,59,96,.31), 0 0 0 10px rgba(213,59,96,0); transform: scale(1.035); } }
+@keyframes cta-pulse { 0%, 100% { box-shadow: 0 9px 22px rgba(36,126,54,.25), 0 0 0 0 rgba(88,211,105,.25); transform: scale(1); } 50% { box-shadow: 0 12px 28px rgba(36,126,54,.31), 0 0 0 10px rgba(88,211,105,0); transform: scale(1.035); } }
 .text-link, .underlined-link { display: inline-flex; align-items: center; gap: 8px; color: var(--ink); font-size: 13px; font-weight: 800; text-decoration: none; }
 .text-link:hover, .underlined-link:hover { color: var(--pink); }
 .underlined-link { padding-bottom: 6px; border-bottom: 1px solid currentColor; }
@@ -191,7 +190,7 @@ p { color: var(--muted); }
 .old-price { color: #ffa3ad; font-size: 31px; font-weight: 800; line-height: 1; text-decoration: line-through; text-decoration-thickness: 3px; }
 .only { margin: 3px 0 0; color: #f5c3ad; font-size: 19px; font-weight: 800; text-decoration: underline; }
 .new-price { margin: 0 0 14px; color: #2eff44; font-size: 72px; font-weight: 800; letter-spacing: -.07em; line-height: 1; }
-.checkout-link { width: min(100%, 310px); min-height: 60px; padding: 11px 16px; background: var(--green); box-shadow: 0 9px 21px rgba(48,25,30,.4); color: #fff; font-size: 17px; font-weight: 800; text-transform: uppercase; animation: checkout-pulse 1.8s ease-in-out infinite; }
+.checkout-link { width: min(100%, 310px); min-height: 60px; padding: 11px 16px; background: var(--green); box-shadow: 0 9px 21px rgba(48,25,30,.4); color: var(--green-ink); font-size: 17px; font-weight: 800; text-transform: uppercase; animation: checkout-pulse 1.8s ease-in-out infinite; }
 .checkout-link:hover { background: #43c855; box-shadow: 0 14px 27px rgba(48,25,30,.43); }
 @keyframes checkout-pulse { 0%, 100% { box-shadow: 0 8px 19px rgba(48,25,30,.36), 0 0 0 0 rgba(75,222,95,.45); transform: scale(1); } 50% { box-shadow: 0 10px 23px rgba(48,25,30,.4), 0 0 0 10px rgba(75,222,95,0); transform: scale(1.045); } }
 .trust-list { display: grid; gap: 1px; padding: 0; margin: 10px 0 0; list-style: none; text-align: left; }
@@ -293,7 +292,7 @@ p { color: var(--muted); }
   .offer-intro { position: static; padding-top: 0; }
   .price-card { margin-bottom: 37px; }
   .footer-row { flex-wrap: wrap; }
-  .mobile-cta { position: fixed; right: 14px; bottom: 14px; left: 14px; z-index: 65; display: flex; align-items: center; justify-content: center; min-height: 55px; border-radius: 8px; background: var(--pink); box-shadow: 0 10px 28px rgba(76,29,44,.34); color: #fff; font-size: 15px; font-weight: 800; text-decoration: none; animation: cta-pulse 2.5s ease-in-out infinite; }
+  .mobile-cta { position: fixed; right: 14px; bottom: 14px; left: 14px; z-index: 65; display: flex; align-items: center; justify-content: center; min-height: 55px; border-radius: 8px; background: var(--green); box-shadow: 0 10px 28px rgba(36,126,54,.34); color: var(--green-ink); font-size: 15px; font-weight: 800; text-decoration: none; animation: cta-pulse 2.5s ease-in-out infinite; }
   .mobile-cta span { margin-left: 9px; }
   .site-footer { padding-bottom: 100px; }
 }

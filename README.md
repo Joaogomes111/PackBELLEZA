@@ -1,4 +1,4 @@
-# Pack Insta de Impacto — Servicios de Belleza
+# Pack Belleza con Impacto
 
 Landing page estática em espanhol, refeita com a copy e as imagens originais da oferta.
 
