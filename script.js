@@ -1,6 +1,6 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
-// Keep campaign attribution when visitors move to the existing Hotmart checkout.
+// Keep campaign attribution when visitors move to the Kiwify checkout.
 const campaignKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'src'];
 const currentParams = new URLSearchParams(window.location.search);
 document.querySelectorAll('.checkout-link').forEach((link) => {

@@ -16,7 +16,7 @@ Você pode abrir `index.html` diretamente no navegador. Para conferir também a 
 
 O `vercel.json` também faz a página responder em `/servicios-de-belleza/`.
 
-Não há instalação de dependências nem etapa de build. As imagens usadas na página estão dentro de `assets/`, em sua maioria em WebP. O botão de compra usa o checkout Hotmart já vinculado à página original: `https://pay.hotmart.com/I107472581B?checkoutMode=10`.
+Não há instalação de dependências nem etapa de build. As imagens usadas na página estão dentro de `assets/`, em sua maioria em WebP. O botão de compra usa o checkout Kiwify: `https://pay.kiwify.com/XZYYIZS`.
 
 ## Antes da publicação
 
