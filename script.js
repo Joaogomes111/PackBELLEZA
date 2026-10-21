@@ -1,5 +1,17 @@
 document.getElementById('year').textContent = new Date().getFullYear();
 
+const mobileCta = document.querySelector('.mobile-cta');
+const hero = document.querySelector('.hero');
+if (mobileCta && hero) {
+  const updateMobileCta = () => {
+    mobileCta.hidden = hero.getBoundingClientRect().bottom > 0;
+  };
+  window.addEventListener('scroll', updateMobileCta, { passive: true });
+  window.addEventListener('resize', updateMobileCta);
+  window.addEventListener('pageshow', updateMobileCta);
+  updateMobileCta();
+}
+
 // Keep campaign attribution when visitors move to the Kiwify checkout.
 const campaignKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'src'];
 const currentParams = new URLSearchParams(window.location.search);
